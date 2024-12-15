@@ -3,9 +3,8 @@
 import requests
 API_KEY = '6bewdnhz1fGUW8ZTxDicPg==rQ3ByHHCt9MHRnCI'
 
-def fetch_data():
-    name = input('Enter a name of an animal: ')
-    API_URL = 'https://api.api-ninjas.com/v1/animals?name={}'.format(name)
+def fetch_data(animal_name):
+    API_URL = 'https://api.api-ninjas.com/v1/animals?name={}'.format(animal_name)
     response = requests.get(API_URL, headers={'X-Api-Key': API_KEY})
     if response.status_code == requests.codes.ok:
         json_data = response.json()
