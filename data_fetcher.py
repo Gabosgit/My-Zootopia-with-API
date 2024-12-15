@@ -1,10 +1,9 @@
 """
 """
 import requests
-
 API_KEY = '6bewdnhz1fGUW8ZTxDicPg==rQ3ByHHCt9MHRnCI'
 
-def get_info_animal_by_name():
+def fetch_data():
     name = input('Enter a name of an animal: ')
     API_URL = 'https://api.api-ninjas.com/v1/animals?name={}'.format(name)
     response = requests.get(API_URL, headers={'X-Api-Key': API_KEY})
@@ -15,9 +14,12 @@ def get_info_animal_by_name():
         print("Error:", response.status_code, response.text)
 
 
-def main():
-    animals_data = get_info_animal_by_name()
-    print(animals_data)
 
+def main():
+    pass
+    
+    
 if __name__ == '__main__':
     main()
+
+
