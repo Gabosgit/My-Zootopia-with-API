@@ -16,7 +16,6 @@ def serialize_info_animals(list_animal_types):
     """ Serializes data to be written in html format. Return de html in a variable 'output'"""
     output = str()
     for animal_type in list_animal_types:
-        print(animal_type)
         output += f'<li class="cards__item">\n'
         output += f'\t<div class="card__title">{animal_type["name"]}</div>\n'
 
