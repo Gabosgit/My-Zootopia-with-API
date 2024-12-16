@@ -51,7 +51,7 @@ def main():
         The obtained data is serialized to write it in html.
         A html file is generated to display the data in a browser.
     """
-    animal_name = input('Enter a name of an animal: ')
+    animal_name = input('Enter a name of an animal: ').lower()
     list_animal_types = fetch_data(animal_name)
     html_data = serialize_info_animals(list_animal_types)
     write_new_html('animals.html', html_data)
