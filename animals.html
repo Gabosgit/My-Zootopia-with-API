@@ -1,0 +1,361 @@
+<html>
+    <head>
+        <style>
+        @gray-darker:               #444444;
+        @gray-dark:                 #696969;
+        @gray:                      #999999;
+        @gray-light:                #cccccc;
+        @gray-lighter:              #ececec;
+        @gray-lightest:             lighten(@gray-lighter,4%);
+
+
+        html {
+          background-color: 9cd7e7;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 40pt;
+            font-weight: bold;
+        }
+
+        body {
+          font-family: 'Roboto','Helvetica Neue', Helvetica, Arial, sans-serif;
+          font-style: normal;
+          font-weight: 400;
+          letter-spacing: 0;
+          padding: 1rem;
+          text-rendering: optimizeLegibility;
+          -webkit-font-smoothing: antialiased;
+          -moz-osx-font-smoothing: grayscale;
+          -moz-font-feature-settings: "liga" on;
+          width: 900px;
+          margin: auto;
+        }
+
+        .cards {
+          list-style: none;
+          margin: 0;
+          padding: 0;
+        }
+
+        .cards__item {
+          background-color: white;
+          border-radius: 0.50rem;
+          box-shadow: 0 20px 40px -14px rgba(0,0,0,0.25);
+          overflow: hidden;
+          padding: 1rem;
+          margin: 50px;
+        }
+
+        .card__title {
+          color: @gray-dark;
+          font-size: 1.25rem;
+          font-weight: bold;
+          letter-spacing: 2px;
+          text-transform: uppercase;
+        }
+
+        .card__text {
+          flex: 1 1 auto;
+          font-size: 0.95rem;
+          line-height: 2;
+          margin-bottom: 1.25rem;
+        }
+
+        .info_list {
+            list-style-type: disc;
+        }
+
+        .info_line::marker {
+            color: red;
+        }
+        </style>
+    </head>
+    <body>
+        <h1>My Animal Repository</h1>
+        <ul class="cards">
+            <li class="cards__item">
+	<div class="card__title">Howler Monkey</div>
+	<h3>Locations:</h3>
+	<ul class="card__text info_list">
+		<li>Central-America</li>
+		<li>South-America</li>
+	</ul>
+	<h3>Characteristics:</h3>
+	<ul class="card__text info_list">
+		<li><strong>main_prey:</strong> Fruit, Nuts, Seeds</li>
+		<li><strong>habitat:</strong> Rainforest and dense jungle</li>
+		<li><strong>predators:</strong> Jaguar, Snakes, Birds</li>
+		<li><strong>diet:</strong> Omnivore</li>
+		<li><strong>average_litter_size:</strong> 1</li>
+		<li><strong>lifestyle:</strong> Troop</li>
+		<li><strong>favorite_food:</strong> Fruit</li>
+		<li><strong>type:</strong> Mammal</li>
+		<li><strong>slogan:</strong> Spends 80% of it's time resting!</li>
+		<li><strong>color:</strong> BrownBlackTan</li>
+		<li><strong>skin_type:</strong> Hair</li>
+		<li><strong>top_speed:</strong> 18 mph</li>
+		<li><strong>lifespan:</strong> 15-20 years</li>
+		<li><strong>weight:</strong> 3-9kg (6.6-20lbs)</li>
+	</ul>
+</li>
+
+<li class="cards__item">
+	<div class="card__title">Monkey</div>
+	<h3>Locations:</h3>
+	<ul class="card__text info_list">
+		<li>Africa</li>
+		<li>Asia</li>
+		<li>Central-America</li>
+		<li>Oceania</li>
+		<li>South-America</li>
+	</ul>
+	<h3>Characteristics:</h3>
+	<ul class="card__text info_list">
+		<li><strong>main_prey:</strong> Fruit, Seeds, Insects</li>
+		<li><strong>habitat:</strong> Tropical forests, grasslands and mountainous plains</li>
+		<li><strong>predators:</strong> Birds, Snakes, Wildcats</li>
+		<li><strong>diet:</strong> Omnivore</li>
+		<li><strong>average_litter_size:</strong> 1</li>
+		<li><strong>lifestyle:</strong> Troop</li>
+		<li><strong>favorite_food:</strong> Fruit</li>
+		<li><strong>type:</strong> Mammal</li>
+		<li><strong>slogan:</strong> There are around 260 known species!</li>
+		<li><strong>color:</strong> BrownGreyYellowBlackWhiteTan</li>
+		<li><strong>skin_type:</strong> Hair</li>
+		<li><strong>top_speed:</strong> 35 mph</li>
+		<li><strong>lifespan:</strong> 10-30 years</li>
+		<li><strong>weight:</strong> 0.1-30kg (0.22-60lbs)</li>
+	</ul>
+</li>
+
+<li class="cards__item">
+	<div class="card__title">Patas Monkey</div>
+	<h3>Locations:</h3>
+	<ul class="card__text info_list">
+		<li>Africa</li>
+	</ul>
+	<h3>Characteristics:</h3>
+	<ul class="card__text info_list">
+		<li><strong>prey:</strong> Fruit, Insects, Eggs</li>
+		<li><strong>name_of_young:</strong> Infant</li>
+		<li><strong>group_behavior:</strong> Troop</li>
+		<li><strong>estimated_population_size:</strong> Decreasing</li>
+		<li><strong>biggest_threat:</strong> Hunting and capture</li>
+		<li><strong>most_distinctive_feature:</strong> Red back and white moustache and beard</li>
+		<li><strong>other_name(s):</strong> Military Monkey, Hussar Monkey, Red Guenon</li>
+		<li><strong>gestation_period:</strong> 5 months</li>
+		<li><strong>habitat:</strong> Savanna and open woodland</li>
+		<li><strong>predators:</strong> Leopard, Hyena, Lion</li>
+		<li><strong>diet:</strong> Omnivore</li>
+		<li><strong>average_litter_size:</strong> 1</li>
+		<li><strong>lifestyle:</strong> Diurnal</li>
+		<li><strong>common_name:</strong> Patas Monkey</li>
+		<li><strong>number_of_species:</strong> 1</li>
+		<li><strong>location:</strong> Central Africa</li>
+		<li><strong>slogan:</strong> The fastest species of primate in the world!</li>
+		<li><strong>group:</strong> Mammal</li>
+		<li><strong>color:</strong> BrownGreyRedBlackWhite</li>
+		<li><strong>skin_type:</strong> Hair</li>
+		<li><strong>top_speed:</strong> 35 mph</li>
+		<li><strong>lifespan:</strong> 12 - 20 years</li>
+		<li><strong>weight:</strong> 4kg - 13kg (8.8lbs - 28.6lbs)</li>
+		<li><strong>height:</strong> 45cm - 85cm (18in - 33in)</li>
+		<li><strong>age_of_sexual_maturity:</strong> 3 - 5 years</li>
+		<li><strong>age_of_weaning:</strong> 6 months</li>
+	</ul>
+</li>
+
+<li class="cards__item">
+	<div class="card__title">Proboscis Monkey</div>
+	<h3>Locations:</h3>
+	<ul class="card__text info_list">
+		<li>Asia</li>
+	</ul>
+	<h3>Characteristics:</h3>
+	<ul class="card__text info_list">
+		<li><strong>prey:</strong> Leaves, Shoots, Fruits</li>
+		<li><strong>name_of_young:</strong> Infant</li>
+		<li><strong>group_behavior:</strong> Troop</li>
+		<li><strong>estimated_population_size:</strong> 7,000</li>
+		<li><strong>biggest_threat:</strong> Habitat loss</li>
+		<li><strong>most_distinctive_feature:</strong> Long, fleshy nose and swollen stomach</li>
+		<li><strong>other_name(s):</strong> Long-Nosed Monkey</li>
+		<li><strong>gestation_period:</strong> 166 days</li>
+		<li><strong>habitat:</strong> Coastal mangroves and riverine forests</li>
+		<li><strong>predators:</strong> Clouded Leopard, Crocodile, Human</li>
+		<li><strong>diet:</strong> Omnivore</li>
+		<li><strong>average_litter_size:</strong> 1</li>
+		<li><strong>lifestyle:</strong> Diurnal</li>
+		<li><strong>common_name:</strong> Proboscis Monkey</li>
+		<li><strong>number_of_species:</strong> 2</li>
+		<li><strong>location:</strong> Borneo</li>
+		<li><strong>slogan:</strong> Natively found on the island of Borneo!</li>
+		<li><strong>group:</strong> Mammal</li>
+		<li><strong>color:</strong> BrownGreyRedWhiteTanOrange</li>
+		<li><strong>skin_type:</strong> Fur</li>
+		<li><strong>top_speed:</strong> 15 mph</li>
+		<li><strong>lifespan:</strong> 15 - 20 years</li>
+		<li><strong>weight:</strong> 7kg - 22kg (15lbs - 48lbs)</li>
+		<li><strong>height:</strong> 53cm - 76cm (21in - 30in)</li>
+		<li><strong>age_of_sexual_maturity:</strong> 4 - 5 years</li>
+		<li><strong>age_of_weaning:</strong> 7 months</li>
+	</ul>
+</li>
+
+<li class="cards__item">
+	<div class="card__title">Pygmy Marmoset (Finger Monkey)</div>
+	<h3>Locations:</h3>
+	<ul class="card__text info_list">
+		<li>South-America</li>
+	</ul>
+	<h3>Characteristics:</h3>
+	<ul class="card__text info_list">
+		<li><strong>main_prey:</strong> Tree Sap, Fruit, Spiders, Insects</li>
+		<li><strong>habitat:</strong> Outskirts of tropical rainforest</li>
+		<li><strong>predators:</strong> Birds, Snakes, Wildcats</li>
+		<li><strong>diet:</strong> Omnivore</li>
+		<li><strong>average_litter_size:</strong> 2</li>
+		<li><strong>lifestyle:</strong> Troop</li>
+		<li><strong>favorite_food:</strong> Tree Sap</li>
+		<li><strong>type:</strong> Mammal</li>
+		<li><strong>slogan:</strong> The smallest species of monkey in the world!</li>
+		<li><strong>color:</strong> BrownGreyBlackWhiteTan</li>
+		<li><strong>skin_type:</strong> Fur</li>
+		<li><strong>top_speed:</strong> 24 mph</li>
+		<li><strong>lifespan:</strong> 8-12 years</li>
+		<li><strong>weight:</strong> 120-140g (4.2-4.9oz)</li>
+	</ul>
+</li>
+
+<li class="cards__item">
+	<div class="card__title">Spider Monkey</div>
+	<h3>Locations:</h3>
+	<ul class="card__text info_list">
+		<li>Central-America</li>
+		<li>South-America</li>
+	</ul>
+	<h3>Characteristics:</h3>
+	<ul class="card__text info_list">
+		<li><strong>main_prey:</strong> Fruit, Nuts, Leaves</li>
+		<li><strong>habitat:</strong> Tropical jungle and rainforest</li>
+		<li><strong>predators:</strong> Human, Eagles, Jaguar</li>
+		<li><strong>diet:</strong> Omnivore</li>
+		<li><strong>average_litter_size:</strong> 1</li>
+		<li><strong>lifestyle:</strong> Troop</li>
+		<li><strong>favorite_food:</strong> Fruit</li>
+		<li><strong>type:</strong> Mammal</li>
+		<li><strong>slogan:</strong> Found in the tropical jungles of South America!</li>
+		<li><strong>color:</strong> BrownGreyBlackWhite</li>
+		<li><strong>skin_type:</strong> Hair</li>
+		<li><strong>top_speed:</strong> 35 mph</li>
+		<li><strong>lifespan:</strong> 15-27 years</li>
+		<li><strong>weight:</strong> 6.4-12kg (14-26lbs)</li>
+	</ul>
+</li>
+
+<li class="cards__item">
+	<div class="card__title">Squirrel Monkey</div>
+	<h3>Locations:</h3>
+	<ul class="card__text info_list">
+		<li>Central-America</li>
+		<li>South-America</li>
+	</ul>
+	<h3>Characteristics:</h3>
+	<ul class="card__text info_list">
+		<li><strong>prey:</strong> Fruit, Insects, Flowers</li>
+		<li><strong>name_of_young:</strong> Infant</li>
+		<li><strong>group_behavior:</strong> Troop</li>
+		<li><strong>estimated_population_size:</strong> Not Known</li>
+		<li><strong>biggest_threat:</strong> Habitat loss</li>
+		<li><strong>most_distinctive_feature:</strong> Longer tail than body used for balance</li>
+		<li><strong>other_name(s):</strong> Deaths Head Monkey</li>
+		<li><strong>gestation_period:</strong> 170 days</li>
+		<li><strong>habitat:</strong> Dense, tropical jungle close to a stream</li>
+		<li><strong>predators:</strong> Birds of Prey, Snakes, Humans</li>
+		<li><strong>diet:</strong> Omnivore</li>
+		<li><strong>average_litter_size:</strong> 1</li>
+		<li><strong>lifestyle:</strong> Diurnal</li>
+		<li><strong>common_name:</strong> Squirrel Monkey</li>
+		<li><strong>number_of_species:</strong> 5</li>
+		<li><strong>location:</strong> Central and South America</li>
+		<li><strong>slogan:</strong> Lives in groups of up to 500 individuals!</li>
+		<li><strong>group:</strong> Mammal</li>
+		<li><strong>color:</strong> GreyYellowBlackOlive</li>
+		<li><strong>skin_type:</strong> Fur</li>
+		<li><strong>top_speed:</strong> 22 mph</li>
+		<li><strong>lifespan:</strong> 15 - 20 years</li>
+		<li><strong>weight:</strong> 0.75kg -1.1k g (1.7lbs - 2.4lbs)</li>
+		<li><strong>height:</strong> 25cm - 36cm (9.8in - 14in)</li>
+		<li><strong>age_of_sexual_maturity:</strong> 3 - 5 years</li>
+		<li><strong>age_of_weaning:</strong> 4 months</li>
+	</ul>
+</li>
+
+<li class="cards__item">
+	<div class="card__title">Vervet Monkey</div>
+	<h3>Locations:</h3>
+	<ul class="card__text info_list">
+		<li>Africa</li>
+	</ul>
+	<h3>Characteristics:</h3>
+	<ul class="card__text info_list">
+		<li><strong>prey:</strong> Leaves, Fruits, Insects</li>
+		<li><strong>name_of_young:</strong> Infant</li>
+		<li><strong>group_behavior:</strong> Troop</li>
+		<li><strong>estimated_population_size:</strong> Sustainable</li>
+		<li><strong>biggest_threat:</strong> Habitat loss</li>
+		<li><strong>most_distinctive_feature:</strong> Black face with white ear tufts</li>
+		<li><strong>other_name(s):</strong> Vervet</li>
+		<li><strong>gestation_period:</strong> 163 days</li>
+		<li><strong>habitat:</strong> Riverine acacia forests</li>
+		<li><strong>predators:</strong> Leopard, Serval, Crocodile</li>
+		<li><strong>diet:</strong> Omnivore</li>
+		<li><strong>average_litter_size:</strong> 1</li>
+		<li><strong>lifestyle:</strong> Diurnal</li>
+		<li><strong>common_name:</strong> Vervet Monkey</li>
+		<li><strong>number_of_species:</strong> 6</li>
+		<li><strong>location:</strong> Eastern Africa</li>
+		<li><strong>slogan:</strong> Rarely found more than 450m from trees!</li>
+		<li><strong>group:</strong> Mammal</li>
+		<li><strong>color:</strong> BrownGreyBlackSilverOlive</li>
+		<li><strong>skin_type:</strong> Fur</li>
+		<li><strong>top_speed:</strong> 30 mph</li>
+		<li><strong>lifespan:</strong> 12 - 24 years</li>
+		<li><strong>weight:</strong> 3.5kg - 5kg (7lbs - 10lbs)</li>
+		<li><strong>length:</strong> 46cm - 66cm (17.9in - 25.7in)</li>
+		<li><strong>age_of_sexual_maturity:</strong> 2 - 5 years</li>
+		<li><strong>age_of_weaning:</strong> 8 - 12 months</li>
+	</ul>
+</li>
+
+<li class="cards__item">
+	<div class="card__title">Woolly Monkey</div>
+	<h3>Locations:</h3>
+	<ul class="card__text info_list">
+		<li>South-America</li>
+	</ul>
+	<h3>Characteristics:</h3>
+	<ul class="card__text info_list">
+		<li><strong>main_prey:</strong> Fruit, Seeds, Insects</li>
+		<li><strong>habitat:</strong> Humid and mature tropical forests</li>
+		<li><strong>predators:</strong> Human, Wildcats, Birds of Prey</li>
+		<li><strong>diet:</strong> Omnivore</li>
+		<li><strong>average_litter_size:</strong> 1</li>
+		<li><strong>lifestyle:</strong> Troop</li>
+		<li><strong>favorite_food:</strong> Fruit</li>
+		<li><strong>type:</strong> Mammal</li>
+		<li><strong>slogan:</strong> Has a long, strong prehensile tail!</li>
+		<li><strong>color:</strong> BrownGreyBlack</li>
+		<li><strong>skin_type:</strong> Fur</li>
+		<li><strong>top_speed:</strong> 35 mph</li>
+		<li><strong>lifespan:</strong> 7-10 years</li>
+		<li><strong>weight:</strong> 5-8kg (11-18lbs)</li>
+	</ul>
+</li>
+
+
+        </ul>
+    </body>
+</html>
