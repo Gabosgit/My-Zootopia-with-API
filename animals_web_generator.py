@@ -42,7 +42,7 @@ def write_new_html(file_path, html_data):
     new_html_template = template_html.replace('__REPLACE_ANIMALS_INFO__', html_data)
     with open(file_path, "w") as new_html:
         new_html.write(new_html_template)
-    print("An 'animals.html' file was generated with the information of the animals with the selected skin type.")
+    print("A file 'animals.html' has been generated with the information of the animals found according to the animal name entered.")
 
 
 def main():
